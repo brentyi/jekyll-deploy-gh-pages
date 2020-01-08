@@ -1,6 +1,7 @@
 #!/bin/sh
 
 set -e
+gem install bundler
 
 echo '👍 ENTRYPOINT HAS STARTED—INSTALLING THE GEM BUNDLE'
 bundle install
