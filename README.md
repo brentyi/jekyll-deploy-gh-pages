@@ -38,5 +38,5 @@ Clones the repo, builds the site, and commits it back to the `gh-pages` branch o
 
 ## Caveats
 
-* `destination:` should be set to `./build` in your `_config.yml` file—as God demands.
+* `destination:` should be set to `./_site` --- this is the default.
 * A `Gemfile` is required. This must include `jekyll` and any other custom gems.
