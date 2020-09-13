@@ -2,6 +2,7 @@
 
 set -e
 gem install bundler
+apt-get install -y nodejs # Install runtime for execjs
 
 echo '👍 ENTRYPOINT HAS STARTED—INSTALLING THE GEM BUNDLE'
 bundle config path vendor/bundle
